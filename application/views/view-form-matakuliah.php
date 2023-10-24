@@ -24,6 +24,7 @@
                 <td>
                     <input type="text" name="kode" id="kode">
                 </td>
+                <td><div><?= form_error('kode') ?> </div></td>
             </tr>
             <tr>
                 <th>
@@ -33,6 +34,7 @@
                 <td>
                     <input type="text" name="nama" id="nama">
                 </td>
+                <td><div><?= form_error('nama') ?> </div></td>
             </tr>
             <tr>
                 <th>
